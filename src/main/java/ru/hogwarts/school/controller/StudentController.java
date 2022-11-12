@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class StudentController {
     private StudentService studentService;
 
-    public  StudentController() {}
+    //public  StudentController() {}
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
     }
